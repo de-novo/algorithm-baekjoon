@@ -6,6 +6,12 @@ length = int(input(''))
 #여러게 입력받아서 리스트화
 times = list(int(x) for x in input('').split())
 times.sort()
+val = [int(input()) for _ in range(n)][::-1] #뒤집기
+val = [list(input().split()) for _ in range(num)]
+
+# 1 2 3 4 5 6 
+L = list(int(x) for x in input().split())
+numbers = list(map(int, input().split()))
 
 #튜플
 a =tuple(int(x) for x in input().split())
@@ -36,3 +42,17 @@ for index,value in enumerate(b):
 ### list method
 ''.join()
 b.reverse()
+min(list)
+max(list)
+L.index()
+# lambda x : < 익명함수
+list(filter(lambda x : int(x)<y,val))
+[x for x in val if vali(x)]
+
+
+
+# 예외처리
+Try:
+  [...]
+except:
+  [...] 
