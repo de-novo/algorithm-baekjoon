@@ -69,3 +69,17 @@ math.ceil()
 
 #소수점 자리수 표기 f-string
 print(f'{num:.0f}')
+
+
+
+#문자 -> 아스키코드
+ord('A')
+
+# 숫자  -> 아스키코드문자
+chr(45)
+
+
+# 물자열 find, index
+Str.find('a') # 없으면 -1
+
+Str.index('a') #없으면 에러 try except 문으로 해결
