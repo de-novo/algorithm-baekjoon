@@ -49,10 +49,23 @@ L.index()
 list(filter(lambda x : int(x)<y,val))
 [x for x in val if vali(x)]
 
-
+from functools import reduce
+reduce(lambda x,y : x*y ,L)
 
 # 예외처리
 Try:
   [...]
 except:
   [...] 
+
+
+import math
+#반올림
+round()
+#내림
+math.floor() 
+#올림 
+math.ceil()
+
+#소수점 자리수 표기 f-string
+print(f'{num:.0f}')
