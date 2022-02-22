@@ -38,7 +38,7 @@ for index,value in enumerate(b):
     print(index)
 
 
-
+list(map(int,list('123')))
 ### list method
 ''.join()
 b.reverse()
