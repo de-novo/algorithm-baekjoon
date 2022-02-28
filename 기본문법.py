@@ -83,3 +83,10 @@ chr(45)
 Str.find('a') # 없으면 -1
 
 Str.index('a') #없으면 에러 try except 문으로 해결
+
+
+print(i, end= ' ')
+
+
+
+L.sort(key = lambda x:(x[0],x[1]))
