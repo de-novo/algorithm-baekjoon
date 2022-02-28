@@ -14,11 +14,18 @@
 
 
 
-import sys 
-
-input = sys.stdin.readline
-
 
 N = int(input())
 
+
+L = [] 
+
+for _ in range(N):
+    L.append(input())
+
+L = list(set(L))
+L.sort(key= lambda x: (len(x),x))
+
+for i in L :
+    print(i)
 
